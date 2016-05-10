@@ -21,6 +21,10 @@
 
         <activity android:name=".PageAddActivity"></activity>
 
+        <activity android:name=".NavPassword"></activity>
+
+        <activity android:name=".PageList"></activity>
+
     </application>
 
 </manifest>

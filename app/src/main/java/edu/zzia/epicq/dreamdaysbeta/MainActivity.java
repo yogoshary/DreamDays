@@ -143,10 +143,16 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_dreamList) {
-            // Handle the camera action
+            Intent intent=new Intent(MainActivity.this,PageList.class);
+            startActivity(intent);
+
         } else if (id == R.id.nav_addDream) {
+            Intent intent=new Intent(MainActivity.this,PageAddActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_passwordBoolean) {
+            Intent intent=new Intent(MainActivity.this,NavPassword.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
 

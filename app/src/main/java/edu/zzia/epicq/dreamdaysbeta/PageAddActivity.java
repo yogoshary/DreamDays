@@ -90,7 +90,6 @@ public class PageAddActivity extends Activity implements View.OnClickListener {
         btnTime.setOnClickListener(this);
 
 
-
     }
 
     //使用数组形式操作
@@ -117,7 +116,7 @@ public class PageAddActivity extends Activity implements View.OnClickListener {
                         Toast.makeText(PageAddActivity.this, year + "year " + (monthOfYear + 1) + "month " + dayOfMonth + "day", Toast.LENGTH_SHORT).show();
                         btnDate.setText( year + "-" + (monthOfYear + 1) + "-" + dayOfMonth);
                     }
-                }, 2013, 7, 20);
+                }, 2016, 5, 10);
                 datePicker.show();
                 break;
 
@@ -130,12 +129,13 @@ public class PageAddActivity extends Activity implements View.OnClickListener {
                         Toast.makeText(PageAddActivity.this, hourOfDay + "hour " + minute + "minute", Toast.LENGTH_SHORT).show();
                         btnTime.setText(hourOfDay + "：" + minute);
                     }
-                }, 18, 25, true);
+                }, 12, 25, true);
                 time.show();
                 break;
         }
 
     }
+
 
 
 }
