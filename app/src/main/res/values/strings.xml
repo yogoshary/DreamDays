@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DreamDaysBeta</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add">添加</string>
+    <string name="action_edit">编辑</string>
+</resources>

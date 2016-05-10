@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="183"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp" />
+
+    <View
+        android:layout_height="3px"
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:id="@+id/view2">
+
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="她同意了"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:hint="事件标题"
+            android:background="@null"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#B8B8B8"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分类"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_weight="4"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Spinner>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="事件日期"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_weight="4"/>
+
+
+        <Button
+            android:id="@+id/btnDatePickerDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置日期" />
+
+        <Button
+            android:id="@+id/btnTimePickerDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置时间" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#B8B8B8"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重复"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_weight="4"/>
+
+        <Button
+            android:id="@+id/btRepetition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#B8B8B8"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="置顶"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:id="@+id/switchSetTop" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#B8B8B8"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通知"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:id="@+id/switchNotification" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"></View>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewBackdrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加语音记录"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_weight="4"/>
+
+        <Button
+            android:id="@+id/btRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"></View>
+
+    <Button
+        android:id="@+id/btComplete"
+        android:background="#FF2D2D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完成"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
